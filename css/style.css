@@ -528,7 +528,7 @@ a:hover, a:focus {
 @media(max-width: 1310px){
     .title-rivera {
         top:106px !important;
-        left:-118px !important;
+        left:-110px !important;
     }
     .title-rivera h1{
         font-size: 24px;
@@ -537,7 +537,7 @@ a:hover, a:focus {
 .title-rivera{
     color: #fff;
     position: absolute;
-    left: -168px;
+    left: -160px;
     transform: rotate(-90deg);
     z-index: 9999;
     top: 185px;
@@ -3121,6 +3121,8 @@ form .formSectionTitle {
     align-items: center;
     justify-content: center;
     background-color: #d7d7d7;
+    width: 100%;
+    text-align: center;
   }
 form .formButtonArea {
     float: left;
@@ -3256,7 +3258,7 @@ textarea.form-control{
 }
 @media (min-width: 350px) {
     .batserach3 {
-        padding: 10px 110px;
+        padding: 10px 110px!important;
     }
 }
 
